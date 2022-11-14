@@ -1,0 +1,40 @@
+.error {
+    color: #F00;
+  }
+
+.valid {
+color: black;
+}
+
+/*Vending tilt animtion*/
+#Contenedor_Vending {
+    outline: 1px solid transparent;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transform: translateZ(0px);
+    -moz-transform: translateZ(0px);
+    -webkit-transform: translateZ(0px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: contain;
+}
+
+.lineModelo {
+  width:100%;
+  outline: 1px solid transparent;
+  transform: translateZ(80px);
+  -moz-transform: translateZ(80px);
+  -webkit-transform: translateZ(80px);
+  background: rgba(0,0,0,0.6);
+  font-family: Arial, Helvetica, "Helvetica-Neue", san-serif;
+  color: #FFF;
+  font-size: 30px;
+  line-height: 60px;
+  text-align:center;
+  color: #F9E48B;
+  text-transform: uppercase;
+
+}
