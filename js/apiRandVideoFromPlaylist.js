@@ -10,7 +10,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 function onYouTubeIframeAPIReady() {
     var numPl = Math.floor((Math.random() * 50) + 1);
     var player = new YT.Player("player", {
-        
+        width: '100%',
         playerVars: {
             listType:'playlist',
             list:'PLgPtEAlwxgkmEam7CnDEloZk0KQGQjQTU',
