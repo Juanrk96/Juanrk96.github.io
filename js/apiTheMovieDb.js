@@ -7,7 +7,7 @@ fetch(API_URL)
 	console.log(data);
 	data.results.forEach((movie) => {
 		let movieCard = `
-        <div class="col-md-4" style="padding:15px;" >
+        <div class="col-md-6" style="padding:15px;" >
           <div class="card h-100">
                 <img class="card-img-top" style='height: 190px; object-fit: contain' src='https://image.tmdb.org/t/p/w600_and_h900_bestv2${movie.poster_path}' alt="Card image cap">
                 <div class="card-body d-flex flex-column">
