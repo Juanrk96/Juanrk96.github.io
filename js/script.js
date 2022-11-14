@@ -78,4 +78,9 @@ popupWhatsApp = () => {
 	// }, 3000);
   }
   
+  function showIt() {
+	$(".nav-bottom").css("visibility", "visible");
+  }
+  setTimeout("showIt()", 3000); // after 3 seconds
+
   popupWhatsApp();
