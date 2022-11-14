@@ -29,7 +29,7 @@
   bottom: 0px;
   right: 0px;
   padding: 5px;
-  margin: 0px;
+  margin: 80px 12px;
 }
 @media (max-width: 360px) {
   .nav-bottom {
@@ -226,6 +226,7 @@ input.whats-input[type=text]:focus {
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+  margin: 80px 12px;
 }
 .float:hover {
 	text-decoration: none;
