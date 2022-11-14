@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="./css/customStyle.css">
     <link rel="stylesheet" type="text/css" href="./css/whastappStyle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./css/customStyle.css">
+    <script src="./js/apiRandUsers.js" defer></script>
     <script src="./js/script.js" defer></script>
     <script src="./js/deptosScript.js"></script>
     <!--Valodatior jQuery-->
@@ -114,10 +116,10 @@
                     <a class="nav-link" href="./contacto.html">CONTACT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./producto.html">PRODUCT</a>
+                  <a class="nav-link" href="./catalogo.html">CATALOG</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./api.html">LOCATIONS</a>
+                  <a class="nav-link" href="./offices.html">OFFICES</a>
                 </li>
             </ul>                       
             </div>
@@ -136,16 +138,16 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active" style="height:360px;">
-          <img class="d-block w-100" src="https://www.selecta.com/.imaging/mte/selecta/lg/dam/website/products/vending-machines/vendinglanding-snacksvending-allunderoneroof-filler1.jpg/jcr:content/vendinglanding-snacksvending-allunderoneroof-filler1-min.jpg" alt="First slide">
+          <img class="d-block w-100" src="https://www.denofgeek.com/wp-content/uploads/2022/10/Shuri-and-Black-Panther-2-characters.jpg?resize=768%2C432" alt="First slide">
         </div>
         <div class="carousel-item" style="height:360px;">
-          <img class="d-block w-100" src="https://i.guim.co.uk/img/media/f52def259f1287bf100d0b0ce80db906dd1ed741/427_501_1806_1084/master/1806.jpg?width=1200&quality=85&auto=format&fit=max&s=c1a4a7f6b37f15c891822c655058229f" alt="Second slide">
+          <img class="d-block w-100" src="https://i.blogs.es/299637/one-piece-film-red/1366_2000.jpeg" alt="Second slide">
         </div>
         <div class="carousel-item" style="height:360px;">
-          <img class="d-block w-100" src="https://www.admiddleeast.com/2021/06/0Etisqpt-Sony_A7Riii_201903090804_0302_3000px-1200x800.jpg" alt="Third slide">
+          <img class="d-block w-100" src="https://i.blogs.es/54be16/black-adam-cartel/1366_2000.jpeg" alt="Third slide">
         </div>
         <div class="carousel-item" style="height:360px;">
-          <img class="d-block w-100" src="https://bloximages.newyork1.vip.townnews.com/wdrb.com/content/tncms/assets/v3/editorial/2/84/284685fc-7998-11ec-93d3-e375f916876d/61e8c85b366f1.image.jpg?resize=1200%2C675" alt="Fourth slide">
+          <img class="d-block w-100" src="https://i0.wp.com/netflixyseries.com/wp-content/uploads/2022/10/Enola-Holmes-2-ppal.webp?fit=1200%2C726&ssl=1" alt="Fourth slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -250,34 +252,14 @@
       <div class="container" >
           <div>
               <h3 class="text-center">
-                  TESTIMONIOS Y OPINIONES
+                  ULTIMOS USUARIOS ACTIVOS
               </h3>
           </div>
       </div>
-      <div id="carouselContent" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active text-center p-4">
-                <h3>Buen Servicio</h3>
-                <p>Asistenci tecnica oportuna</p>
-            </div>
-            <div class="carousel-item text-center p-4">
-                <h3>Equipo de buena calidad</h3>
-                <p>La calidad y material son muy buenos</p>
-            </div>
-            <div class="carousel-item text-center p-4">
-              <h3>Precios Acequibles</h3>
-              <p>A comparacion de otros proveedores, este es bastante economico</p>
-          </div>
-          </div>
-          <a class="carousel-control-prev bg-secondary" href="#carouselContent" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next bg-secondary" href="#carouselContent" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>
+      <div class="container">
+        <ul class="usuarios" id="runners"></ul>
       </div>
+      
     </div>
 
     
