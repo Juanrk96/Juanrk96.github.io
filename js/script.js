@@ -68,8 +68,8 @@ popupWhatsApp = () => {
 	sendBtn.addEventListener("click", () => {
 	let msg = document.getElementById('whats-in').value;
 	let relmsg = msg.replace(/ /g,"%20");
-	   
-	 window.open('https://wa.me/+50376023484?text='+relmsg, '_blank'); 
+	   //Place number and uncomment it to make it work
+	 //window.open('https://wa.me/[Phone number]?text='+relmsg, '_blank'); 
 	
 	});
   
